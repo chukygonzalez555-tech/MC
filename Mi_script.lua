@@ -1,2 +1,1 @@
-
-loadstring(Game:HttpGet("raw.githubuserconten.com"))()
+loadstring(game:HttpGet("raw.githubusercontent.com"))() local Window = OrionLib:MakeWindow({Name = "MCjoiner", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = true, IntroText = "Iniciando MCjoiner...", Icon = "rbxassetid://4483345998"}) local Tab = Window:MakeTab({Name = "Inicio", Icon = "rbxassetid://4483345998", PremiumOnly = false}) Tab:AddButton({Name = "Ejecutar Script", Callback = function() print("Botón presionado correctamente") end}) OrionLib:Init()
